@@ -1,0 +1,60 @@
+html{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0px ;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+}
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.button-wrapper{
+    margin: 20px 0;
+}
+#searchbutton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #464646;
+    color:#fff;
+    box-shadow: 1px 3px 5px rgb(201, 186, 171);
+    cursor: pointer;
+    border: none;
+}
+#clearbutton{
+    width: 110px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #a31919;
+    color:#fff;
+    box-shadow: 1px 3px 5px rgb(173, 97, 81);
+    cursor: pointer;
+    border: none;
+}
+.imagelist-wrapper{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 4px 6px lightblue;
+}
